@@ -1,20 +1,32 @@
 {
   "name": "sba319",
   "version": "1.0.0",
-  "main": "DataApp.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coralis9/SBA319.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "mongoose": "^8.13.2"
+  "bugs": {
+    "url": "https://github.com/Coralis9/SBA319/issues"
   },
+  "homepage": "https://github.com/Coralis9/SBA319#readme",
+  "description": "",
   "devDependencies": {
     "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.14.0",
+    "uuid": "^11.1.0"
   }
 }
+
